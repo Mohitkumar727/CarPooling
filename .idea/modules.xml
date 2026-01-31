@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CarPool/CarPool.iml" filepath="$PROJECT_DIR$/CarPool/CarPool.iml" />
       <module fileurl="file://$PROJECT_DIR$/firstpog.iml" filepath="$PROJECT_DIR$/firstpog.iml" />
     </modules>
   </component>

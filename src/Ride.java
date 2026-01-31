@@ -1,15 +1,18 @@
 public class Ride {
 
+    public int availableSeats;
+    public int farePerSeat;
     int id;
     String source;
     String destination;
     int seats;
     double fare;
+    User user;
 
-    public Ride(int id,String source, String destination, int seats, double fare) {
-        this.id = id;
-        this.destination = destination;
+    public Ride(int id, String source, String destination, int seats, double fare) {
+        this.id=id;
         this.source = source;
+        this.destination = destination;
         this.seats = seats;
         this.fare = fare;
     }
@@ -25,4 +28,11 @@ public class Ride {
                 '}';
     }
 
+    public void displayRide() {
+        System.out.println("Id      : " + id);
+        System.out.println("Source      : " + source);
+        System.out.println("Destination : " + destination);
+        System.out.println("Seats       : " + seats);
+        System.out.println("Fare        : ₹" + fare);
+    }
 }
